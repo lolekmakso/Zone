@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Zone</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#" class="header__logo"
+          ><img src="img/logo.svg" alt="logo" /><span>Zone.</span></a
+        >
+        <nav class="nav">
+          <ul class="nav__ul" id="navUl">
+            <li class="nav__li"><a href="#" class="nav__a">Home</a></li>
+            <li class="nav__li"><a href="#" class="nav__a">About Us</a></li>
+            <li class="nav__li"><a href="#" class="nav__a">Service</a></li>
+            <li class="nav__li"><a href="#" class="nav__a">Pricing</a></li>
+            <li class="nav__li"><a href="#" class="nav__a">Blog</a></li>
+            <li class="nav__li">
+              <a href="#" class="btn _primary">Contact Us</a>
+            </li>
+            <span class="material-icons icon-close" onclick="navToggle()"
+              >close</span
+            >
+          </ul>
+          <span class="material-icons icon-menu" onclick="navToggle()"
+            >menu</span
+          >
+        </nav>
+      </header>
+
+      <section class="main-section">
+        <div class="main-section__info">
+          <div class="main-section__title">
+            Virtual Reality Business Solutions
+          </div>
+          <div class="main-section__desc">
+            We have over 15 year exprience in business consultting arena. We
+            have over 15 year exprience in business consultting arena and
+            artficial intelligence.
+          </div>
+          <div class="main-section__action">
+            <a href="#" class="btn _primary">Join Us</a>
+            <a href="#" class="link">
+              <img src="img/play.svg" alt="play" />
+              <span>Watch video</span>
+            </a>
+          </div>
+        </div>
+        <div class="main-section__img">
+          <img src="img/main-section-bg.png" alt="main image" />
+        </div>
+      </section>
+
+      <section class="service-section">
+        <div class="title">Our Service</div>
+        <div class="desc">
+          We turn information into actionable insights We work to understand
+          your issues and are driven to ask better questions in the pursuit of
+          making work.
+        </div>
+        <div class="service-list">
+          <div class="service-list__item">
+            <div class="service-list__img _icon1">
+              <img src="img/service-img/icon1.svg" alt="icon" />
+            </div>
+            <div class="service-list__title">Order Management</div>
+            <div class="service-list__desc">
+              Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+              quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+            </div>
+            <a href="#" class="service-list__action">
+              <span>Learn more</span>
+              <span class="material-icons"> arrow_forward </span>
+            </a>
+          </div>
+          <div class="service-list__item">
+            <div class="service-list__img _icon2">
+              <img src="img/service-img/icon2.svg" alt="icon" />
+            </div>
+            <div class="service-list__title">Social Assistant</div>
+            <div class="service-list__desc">
+              Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+              quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+            </div>
+            <a href="#" class="service-list__action">
+              <span>Learn more</span>
+              <span class="material-icons"> arrow_forward </span>
+            </a>
+          </div>
+          <div class="service-list__item">
+            <div class="service-list__img _icon3">
+              <img src="img/service-img/icon3.svg" alt="icon" />
+            </div>
+            <div class="service-list__title">Crypto Platform</div>
+            <div class="service-list__desc">
+              Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+              quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+            </div>
+            <a href="#" class="service-list__action">
+              <span>Learn more</span>
+              <span class="material-icons"> arrow_forward </span>
+            </a>
+          </div>
+          <div class="service-list__item">
+            <div class="service-list__img _icon4">
+              <img src="img/service-img/icon4.svg" alt="icon" />
+            </div>
+            <div class="service-list__title">Smart Trading Modules</div>
+            <div class="service-list__desc">
+              Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+              quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+            </div>
+            <a href="#" class="service-list__action">
+              <span>Learn more</span>
+              <span class="material-icons"> arrow_forward </span>
+            </a>
+          </div>
+          <div class="service-list__item">
+            <div class="service-list__img _icon5">
+              <img src="img/service-img/icon5.svg" alt="icon" />
+            </div>
+            <div class="service-list__title">Analyzer of the News</div>
+            <div class="service-list__desc">
+              Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+              quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+            </div>
+            <a href="#" class="service-list__action">
+              <span>Learn more</span>
+              <span class="material-icons"> arrow_forward </span>
+            </a>
+          </div>
+          <div class="service-list__item">
+            <div class="service-list__img _icon6">
+              <img src="img/service-img/icon6.svg" alt="icon" />
+            </div>
+            <div class="service-list__title">Module of Price Notification</div>
+            <div class="service-list__desc">
+              Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed
+              quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+            </div>
+            <a href="#" class="service-list__action">
+              <span>Learn more</span>
+              <span class="material-icons"> arrow_forward </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="points-section">
+        <div class="points-section__item">
+          <div class="main-section__img">
+            <img src="img/person1.png" alt="main image" />
+          </div>
+          <div class="points-section__info">
+            <div class="points-section__title">
+              We complete every projects extra care as customer need
+            </div>
+            <div class="points-section__desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+              dictum risus, non suscipit arcu. Quisque aliquam posuere tortor,
+              sit amet convallis nuncoe scelerisque in. orem ipsum dolor sit
+              amet, consectetur adipisicing elit. Labore eius molestiae facere,
+              natus reprehenderit eaque eum, autem ipsam. Magfini, error.
+              Tempora odit laborum iure inventore possimus laboriosam qui nam.
+            </div>
+
+            <a href="#" class="btn _primary">Read more</a>
+          </div>
+        </div>
+        <div class="points-section__item _reverse">
+          <div class="main-section__img">
+            <img src="img/person2.png" alt="main image" />
+          </div>
+          <div class="points-section__info">
+            <div class="points-section__title">
+              We complete every projects extra care as customer need
+            </div>
+            <div class="points-section__desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+              dictum risus, non suscipit arcu. Quisque aliquam posuere tortor,
+              sit amet convallis nuncoe scelerisque in. orem ipsum dolor sit
+              amet, consectetur adipisicing elit. Labore eius molestiae facere,
+              natus reprehenderit eaque eum, autem ipsam. Magfini, error.
+              Tempora odit laborum iure inventore possimus laboriosam qui nam.
+            </div>
+
+            <a href="#" class="btn _primary">Read more</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="team-section">
+        <div class="title">Met Our Team</div>
+        <div class="desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
+          accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+        </div>
+        <div class="team-list">
+          <div class="team-list__item">
+            <div class="team-list__img">
+              <img src="img/team-img/icon/icon1.png" alt="icon" />
+            </div>
+            <div class="team-list__name">Sunny Khan</div>
+            <div class="team-list__prof">Executive officer</div>
+            <div class="team-list__soc">
+              <a href="#"
+                ><img src="img/team-img/soc/skype.png" alt="skype"
+              /></a>
+              <a href="#"
+                ><img src="img/team-img/soc/linkedin.png" alt="linkedin"
+              /></a>
+              <a href="#"
+                ><img src="img/team-img/soc/twitter.png" alt="twitter"
+              /></a>
+              <a href="#"
+                ><img src="img/team-img/soc/Faceboock.png" alt="Faceboock"
+              /></a>
+            </div>
+          </div>
+          <div class="team-list__item">
+            <div class="team-list__img">
+              <img src="img/team-img/icon/icon2.png" alt="icon" />
+            </div>
+            <div class="team-list__name">Alina Jesia</div>
+            <div class="team-list__prof">UX/UI DESIGNER</div>
+            <div class="team-list__soc">
+              <a href="#"
+                ><img src="img/team-img/soc/skype.png" alt="skype"
+              /></a>
+              <a href="#"
+                ><img src="img/team-img/soc/linkedin.png" alt="linkedin"
+              /></a>
+              <a href="#"
+                ><img src="img/team-img/soc/twitter.png" alt="twitter"
+              /></a>
+              <a href="#"
+                ><img src="img/team-img/soc/Faceboock.png" alt="Faceboock"
+              /></a>
+            </div>
+          </div>
+          <div class="team-list__item">
+            <div class="team-list__img">
+              <img src="img/team-img/icon/icon3.png" alt="icon" />
+            </div>
+            <div class="team-list__name">Alex Sohag</div>
+            <div class="team-list__prof">BUSINESS DEVELOPMENT</div>
+            <div class="team-list__soc">
+              <a href="#"
+                ><img src="img/team-img/soc/skype.png" alt="skype"
+              /></a>
+              <a href="#"
+                ><img src="img/team-img/soc/linkedin.png" alt="linkedin"
+              /></a>
+              <a href="#"
+                ><img src="img/team-img/soc/twitter.png" alt="twitter"
+              /></a>
+              <a href="#"
+                ><img src="img/team-img/soc/Faceboock.png" alt="Faceboock"
+              /></a>
+            </div>
+          </div>
+          <div class="team-list__item">
+            <div class="team-list__img">
+              <img src="img/team-img/icon/icon4.png" alt="icon" />
+            </div>
+            <div class="team-list__name">Afroza Mou</div>
+            <div class="team-list__prof">Head of marketing</div>
+            <div class="team-list__soc">
+              <a href="#"
+                ><img src="img/team-img/soc/skype.png" alt="skype"
+              /></a>
+              <a href="#"
+                ><img src="img/team-img/soc/linkedin.png" alt="linkedin"
+              /></a>
+              <a href="#"
+                ><img src="img/team-img/soc/twitter.png" alt="twitter"
+              /></a>
+              <a href="#"
+                ><img src="img/team-img/soc/Faceboock.png" alt="Faceboock"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="subscribe-section">
+        <div class="subscribe-section__title">
+          Subscribe to get the Latest News
+        </div>
+        <div class="subscribe-section__desc">
+          We recommended you to subscribe to our newspaper,drop your email below
+          to get daily update about us
+        </div>
+        <div class="subscribe-section__subscribe">
+          <input type="email" placeholder="Enter your email addres" />
+          <a class="btn _primary" href="#">
+            <svg
+              width="15"
+              height="15"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9 14.6667C8.74867 14.6667 8.51667 14.5247 8.40333 14.298L6.42467 10.3407C6.316 10.1233 6.33467 9.86334 6.47267 9.66268L9.66667 5.33334L5.33667 8.52668C5.136 8.66534 4.876 8.68268 4.65867 8.57468L0.702001 6.59668C0.464668 6.47734 0.320001 6.22868 0.334668 5.96334C0.348668 5.69801 0.520001 5.46601 0.769334 5.37468L13.436 0.708009C13.6793 0.619342 13.9533 0.677342 14.138 0.862009C14.322 1.04534 14.382 1.32001 14.292 1.56401L9.62533 14.2307C9.53333 14.48 9.302 14.6513 9.03667 14.6653C9.02467 14.666 9.012 14.6667 9 14.6667Z"
+                fill="white"
+              />
+            </svg>
+            <span>Subscribe</span>
+          </a>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="footer-zone">
+            <a href="#" class="header__logo"
+              ><img src="img/logo.svg" alt="logo" /><span>Zone.</span></a
+            >
+            <ul class="footer-zone__ul">
+              <li class="footer-zone__li">
+                <a href="#" class="footer-zone__a"
+                  ><img src="img/footer-img/icon/icon1.png" alt="icon" /><span
+                    >Dhaka, Bangladesh</span
+                  ></a
+                >
+              </li>
+              <li class="footer-zone__li">
+                <a href="#" class="footer-zone__a"
+                  ><img src="img/footer-img/icon/icon2.png" alt="icon" /><span
+                    >0943833399</span
+                  ></a
+                >
+              </li>
+              <li class="footer-zone__li">
+                <a href="#" class="footer-zone__a"
+                  ><img src="img/footer-img/icon/icon3.png" alt="icon" /><span
+                    >support@zone.com</span
+                  ></a
+                >
+              </li>
+
+              <div class="footer-zone__img">
+				<a href="#"><img src="img/footer-img/soc/facebook.png" alt="facebook" /></a>
+				<a href="#"><img src="img/footer-img/soc/twitter.png" alt="twitter" /></a>
+				<a href="#"><img src="img/footer-img/soc/instagram.png" alt="instagram" /></a>
+				<a href="#"><img src="img/footer-img/soc/pinterest.png" alt="pinterest" /></a>
+              </div>
+            </ul>
+          </div>
+
+          <div class="footer-service">
+            <div class="footer__title">Service</div>
+            <ul class="footer__ul">
+              <li class="footer__li">
+                <a href="#" class="footer__a">Order Management</a>
+              </li>
+              <li class="footer__li">
+                <a href="#" class="footer__a">Social Assistant</a>
+              </li>
+              <li class="footer__li">
+                <a href="#" class="footer__a">Crypto Platform</a>
+              </li>
+              <li class="footer__li">
+                <a href="#" class="footer__a">Analyzer of the News</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-company">
+            <div class="footer__title">Company</div>
+            <ul class="footer__ul">
+              <li class="footer__li">
+                <a href="#" class="footer__a">About Us</a>
+              </li>
+              <li class="footer__li"><a href="#" class="footer__a">News</a></li>
+              <li class="footer__li">
+                <a href="#" class="footer__a">Our trusted partner</a>
+              </li>
+              <li class="footer__li">
+                <a href="#" class="footer__a">New users FAQ</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-supports">
+            <div class="footer__title">Supports</div>
+            <ul class="footer__ul">
+              <li class="footer__li">
+                <a href="#" class="footer__a">Help center</a>
+              </li>
+              <li class="footer__li">
+                <a href="#" class="footer__a">Feedbeak</a>
+              </li>
+              <li class="footer__li">
+                <a href="#" class="footer__a">Contact us</a>
+              </li>
+              <li class="footer__li">
+                <a href="#" class="footer__a">Terms conditins</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-resources">
+            <div class="footer__title">Resources</div>
+            <ul class="footer__ul">
+              <li class="footer__li">
+                <a href="#" class="footer__a">Download app</a>
+              </li>
+              <li class="footer__li"><a href="#" class="footer__a">Blog</a></li>
+              <li class="footer__li">
+                <a href="#" class="footer__a">What's new</a>
+              </li>
+              <li class="footer__li">
+                <a href="#" class="footer__a">Sitemap</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+	</div>
+		<div class="line"></div>
+    <div class="container">
+        <div class="footer__bottom">
+          <div class="footer__reserved">
+            © 2021 Zone. - All rights reserved.
+          </div>
+		  <ul class="footer__ul">
+			<li class="footer__li">
+			  <a href="#" class="footer__a">Privacy</a>
+			</li>
+			<li class="footer__li"><a href="#" class="footer__a">Security</a></li>
+			<li class="footer__li">
+			  <a href="#" class="footer__a">Terms</a>
+			</li>
+		  </ul>
+        </div>
+      </footer>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
+

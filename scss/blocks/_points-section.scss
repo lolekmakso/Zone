@@ -1,0 +1,39 @@
+.points-section__item {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  @include tablet{
+    flex-direction:column-reverse;
+  }
+}
+
+._reverse {
+  flex-direction: row-reverse;
+  margin-top: 57px;
+
+  @include tablet{
+    flex-direction:column-reverse;
+  }
+}
+
+.points-section {
+    margin-bottom: 107px;
+  &__info {
+    max-width: 582px;
+
+    @include tablet{
+        max-width: 700px;
+        text-align: center
+    }
+  }
+
+  &__title {
+    @include text($ff, 700, 4.2rem, 5.5rem, $white);
+    margin-bottom: 30px;
+  }
+
+  &__desc {
+    @include text($ff, 400, 1.6rem, 2.6rem, $white);
+    margin-bottom: 30px;
+  }
+}
